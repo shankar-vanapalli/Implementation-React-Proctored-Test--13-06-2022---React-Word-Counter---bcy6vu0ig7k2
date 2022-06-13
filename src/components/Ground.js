@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Ground = () => {
   const [limit, setLimit] = useState(50);
   const [text, setText] = useState("");
-  const [range, setRange] = useState("");
+  const [range, setRange] = useState("16");
 
   const limitHandler = (e) => {
     setLimit(e.target.value);
@@ -14,6 +14,7 @@ const Ground = () => {
     }
   };
   const rangeHandler = (e) => {
+    // console.log(e.target.value);
     setRange(e.target.value);
   };
   // const style = {
