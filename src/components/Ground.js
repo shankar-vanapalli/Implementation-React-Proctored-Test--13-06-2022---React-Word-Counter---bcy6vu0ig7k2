@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Ground = () => {
   const [limit, setLimit] = useState(50);
   const [text, setText] = useState("");
-  const [range, setRange] = useState("16");
+  const [range, setRange] = useState("");
 
   const limitHandler = (e) => {
     setLimit(e.target.value);
