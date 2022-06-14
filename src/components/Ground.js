@@ -43,7 +43,7 @@ const Ground = () => {
       <div>
         <textarea
           style={{
-            fontSize: `${range}px`
+            fontSize: range+"px"
           }}
           placeholder="Enter words here"
           onChange={textHandler}
